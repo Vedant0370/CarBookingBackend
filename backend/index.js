@@ -7,7 +7,7 @@ const port = process.env.PORT || 7000;
 
 // Middleware
 app.use(express.json());
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+app.use(cors());
 
 // Define API Router
 const apiRouter = express.Router();
