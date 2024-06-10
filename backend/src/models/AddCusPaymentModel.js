@@ -7,6 +7,7 @@ const AddPaymentSchema = new mongoose.Schema({
   reporting_Address: String,
   Date: String,
   customer_Name: String,
+  mobile_no: Number,
   vehicle_Number: String,
   vehicle_Type: String,
   quantity: Number,
@@ -39,7 +40,13 @@ const AddPaymentSchema = new mongoose.Schema({
   remaining_Amount: Number,
   payment_Method: String,
   customerId : String,
-  
+  chequeNo : String,
+  ifscCode : String,
+  upiId : String,
+  cashReceiver : String,
+  transactionId : String,
+  TransactionNumber : String,
+
 });
 
 const NewAddPaymentDetails = new mongoose.model(

@@ -35,6 +35,7 @@ const UpdateDutySchema = new mongoose.Schema({
     cashReceiver : String,
     transactionId : String,
     TransactionNumber : String,
+    trip_duty_number : Number   
 
     
 })
