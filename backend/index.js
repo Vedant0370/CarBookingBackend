@@ -8,7 +8,7 @@ const port = process.env.PORT || 10000;
 // Middleware
 app.use(express.json());
 // locally api running
-// app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+// app.use(cors({ origin: 'https://carbookingbackend.onrender.com', credentials: true }));
 
 // on server api running 
 app.use(cors()); 
